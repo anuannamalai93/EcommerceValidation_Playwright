@@ -1,0 +1,38 @@
+{
+  "URL": "https://automationexercise.com",
+
+  "Assessment1": {
+    "search": {
+      "valid_product": "Sleeveless",
+      "invalid_product": "gjkwofrjkl"
+    },
+    "new_user": {
+      "name": "Anu",
+      "email": "anuannamalai48@gmail.com"
+    },
+    "existing_user": {
+      "name": "Anu",
+      "email": "anuannamalai@gmail.com"
+    },
+    "user_data": {
+        "password": "password123",
+        "day": "15",
+        "month": "August",
+        "year": "1995",
+        "first_name": "Anu",
+        "last_name": "annamalai",
+        "address": "123",
+        "state": "TN",
+        "city": "Chennai",
+        "zipcode": "600000",
+        "mobile": "9876543210"
+    },
+    "card_details": {
+            "name": "anu",
+            "card_number": "1234567890987654",
+            "cvc": "456",
+            "expiry_month": "August",
+            "expiry_year": "2030"
+        }
+  }
+}

@@ -1,0 +1,28 @@
+# PyCharm
+.idea/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Pytest
+.pytest_cache/
+
+# Virtual Environment
+.venv/
+venv/
+
+# Allure
+allure-results/
+allure-report/
+
+# Reports
+Reports/
+
+# Logs
+*.log
+
+# Generated test files
+invoice.txt
+Tests/TestHappyFlows/invoice.txt
