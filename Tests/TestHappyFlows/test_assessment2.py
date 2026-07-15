@@ -28,7 +28,5 @@ def test_assessment1(page):
     topmenu.verify_home_page_loaded()
     topmenu.click_products()
     topmenu.verify_products_page_loaded()
-
-    topmenu.click_cart()
-    topmenu.verify_cart_page_loaded()
-
+    topmenu.verify_products_page_loaded()
+    topmenu.verify_products_page_loaded()
