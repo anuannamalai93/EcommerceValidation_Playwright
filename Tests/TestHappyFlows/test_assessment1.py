@@ -4,7 +4,7 @@ from pageobjects.LoginSignup import LoginSignup
 from pageobjects.ProductsPage import Productspage
 from pageobjects.TopMenu import TopMenu
 import allure
-from Tests.utils import get_test_data
+from Tests.utils.testdata import get_test_data
 
 @allure.title("End to End Happy flow")
 @allure.description("Verifies that a guest user can search for products,"

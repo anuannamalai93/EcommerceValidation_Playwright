@@ -1,11 +1,13 @@
+import pytest
+
 from Tests.blockads import blockads
 from pageobjects.CartPage import CartPage
 from pageobjects.LoginSignup import LoginSignup
 from pageobjects.ProductsPage import Productspage
 from pageobjects.TopMenu import TopMenu
 import allure
-from Tests.utils import get_test_data
-
+from Tests.utils.testdata import get_test_data
+@pytest.mark.skip(reason="to be completed")
 @allure.title("End to End Happy flow")
 @allure.description("Verifies that a guest user can search for products,"
                     "add the first two 'Sleeveless' items to the cart,"
@@ -28,5 +30,4 @@ def test_assessment1(page):
     topmenu.verify_home_page_loaded()
     topmenu.click_products()
     topmenu.verify_products_page_loaded()
-    topmenu.verify_products_page_loaded()
-    topmenu.verify_products_page_loaded()
+
