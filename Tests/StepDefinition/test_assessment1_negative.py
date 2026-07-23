@@ -9,7 +9,7 @@ from pageobjects.TopMenu import TopMenu
 from pageobjects.ProductsPage import Productspage
 from pageobjects.CartPage import CartPage
 import allure
-from Tests.utils import get_test_data
+from Tests.utils.testdata import get_test_data
 
 scenarios("../Features/assessment1_negative.feature")
 
